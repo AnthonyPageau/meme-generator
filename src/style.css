@@ -63,11 +63,6 @@ main {
   position: relative;
 }
 
-.meme--image {
-  max-width: 100%;
-  border-radius: 3px;
-}
-
 .meme--text {
   position: absolute;
   width: 80%;
@@ -99,4 +94,12 @@ main {
 
 .top {
   top: 0;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
